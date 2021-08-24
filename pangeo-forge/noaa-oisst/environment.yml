@@ -1,0 +1,15 @@
+name: pangeo-forge-example
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - fsspec>=2021.6.0
+  - h5netcdf
+  - jupyterlab
+  - numpy
+  - pandas
+  - pip
+  - xarray>=0.18.0
+  - zarr>=2.6.0
+  - pip:
+    - git+https://github.com/pangeo-forge/pangeo-forge-recipes.git
